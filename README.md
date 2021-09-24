@@ -21,7 +21,7 @@ E-Wallet-Application is a backend service that enables users to transact money b
 4 UserService needs authentication to use its service except for user_registration<br>
 5 All these services shares required data via kafka messaging and RestTemplate<br>
 6 WalletService is used to check balance, user_wallet_info<br>
-7 TransactionService is yse to send and add money(for all type of transactions_info also like history of transactions)<br>
+7 TransactionService is used to send and add money(for all type of transactions_info also like history of transactions)<br>
 8 NotificationService is used to send mails to confirm mailId, To send transaction details.<br>
 9 Security is implemented by spring-security
 10 Redis used for caching userdata and used for furtherly whenever needed, during login, needs to send userdata to otherservices.
