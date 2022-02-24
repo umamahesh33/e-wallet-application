@@ -5,6 +5,7 @@ E-Wallet-Application is a backend service that enables users to transact money b
 ## Tech
 - Java
 - Spring-Boot
+- Spring Security(Authentication , Authorization) (Basic Auth)
 - ORM(Hibernate)
 - maven
 - redis
