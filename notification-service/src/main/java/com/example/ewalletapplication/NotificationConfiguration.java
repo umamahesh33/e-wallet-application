@@ -17,7 +17,7 @@ public class NotificationConfiguration {
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
         mailSender.setUsername("Ewallet.noreply@gmail.com");
-        mailSender.setPassword("Umamahesh@33");
+        mailSender.setPassword("need to give the mail password here");
         Properties properties = mailSender.getJavaMailProperties();
         properties.put("mail.smtp.starttls.enable", true);
         return mailSender;
